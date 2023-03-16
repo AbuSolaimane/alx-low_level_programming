@@ -1,2 +1,6 @@
-#!/bin/bash
-gcc -E $CFILE > c 
+#include<studio.h>
+
+int main()
+{
+	puts("Programming is like building a multilingual puzzle\n");
+}
