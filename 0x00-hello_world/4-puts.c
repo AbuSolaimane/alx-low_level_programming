@@ -1,6 +1,12 @@
 #include<stdio.h>
 
-/*  this method will print a message to stdout */
+
+/**
+ *
+ * main - Entry point
+ *
+ * Description: 'the program's description'
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
