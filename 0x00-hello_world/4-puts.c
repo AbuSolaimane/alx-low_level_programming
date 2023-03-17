@@ -4,7 +4,7 @@
 /**
  *
  * main - Entry point
- *
+ * Return: always return zero (success)
  * Description: 'the program's description'
  */
 int main(void)
