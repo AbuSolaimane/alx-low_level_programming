@@ -11,23 +11,13 @@
  */
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	printf("%d ", n);
-	if (n > 0)
+	for(char i = '0'; i < '9'; i++)
 	{
-		printf("is positive\n");
+		putchar(i);
+		putchar(',');
+		putchar(' ');
 	}
-	else if (n < 0)
-	{
-		printf("is negative\n");
-	}
-	else
-	{
-		printf("is zero\n");
-	}
+	putchar(9);
+	putchar('\n');
 	return (0);
 }
