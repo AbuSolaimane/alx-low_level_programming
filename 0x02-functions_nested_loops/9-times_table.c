@@ -1,15 +1,19 @@
 #include "main.h"
 
 /**
- * times_table - function
+ * print - function
+ * @a: parameter
  */
 void print(int a)
 {
-	if(a >= 10)
+	if (a >= 10)
 		print(a / 10);
 	
 	_putchar('0' + (a % 10));
 }
+/**
+ * times_table - function
+ */
 void times_table(void)
 {
 	int i, j;
@@ -26,7 +30,7 @@ void times_table(void)
 			else
 			{
 				_putchar(',');
-				if (l < 10)
+				if (l + i < 10)
 					_putchar(' ');
 				_putchar(' ');
 			}
