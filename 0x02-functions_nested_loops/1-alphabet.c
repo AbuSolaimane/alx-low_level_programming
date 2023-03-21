@@ -6,5 +6,5 @@ void print_alphabet(void)
 	for (i='a'; i<='z'; i++)
 		_putchar ('_');
 	_putchar ('\n');
-	return (0);
+	return;
 }
