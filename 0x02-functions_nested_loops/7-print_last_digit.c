@@ -12,6 +12,8 @@ int print_last_digit(int a)
 {
 	int r;
 
+	if (a == INT_MIN)
+		a = 88;
 	if (a < 0)
 		a = a * -1;
 	r = a % 10;
