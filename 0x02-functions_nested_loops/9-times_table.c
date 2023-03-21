@@ -3,6 +3,13 @@
 /**
  * times_table - function
  */
+void print(int a)
+{
+	if(a >= 10)
+		print(a / 10);
+	
+	_putchar('0' + (a % 10));
+}
 void times_table(void)
 {
 	int i, j;
@@ -13,13 +20,14 @@ void times_table(void)
 
 		for (j = 0; j <= 9; j++)
 		{
-			_putchar(l + '0');
+			print(l);
 			if (j == 9)
 				_putchar('\n');
 			else
 			{
 				_putchar(',');
-				_putchar(' ');
+				if (l < 10)
+					putchar(' ');
 				_putchar(' ');
 			}
 			l += i;
