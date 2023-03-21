@@ -2,6 +2,8 @@
 
 /**
  * _islower - check if c is lowerCase
+ *
+ * Return: 0 or 1
  */
 int _islower(int c)
 {
