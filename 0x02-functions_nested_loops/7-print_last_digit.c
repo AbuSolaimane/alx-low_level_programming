@@ -1,5 +1,3 @@
-#include<.h>
-
 /**
  * print_last_digit - function
  *
