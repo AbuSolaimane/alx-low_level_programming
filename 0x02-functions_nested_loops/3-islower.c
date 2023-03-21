@@ -3,6 +3,8 @@
 /**
  * _islower - check if c is lowerCase
  *
+ * @c: parameter
+ *
  * Return: 0 or 1
  */
 int _islower(int c)
