@@ -6,13 +6,13 @@
  * @i: parameter
  */
 void print(int i)
-{
-	if (i < 0)
-		i = i * -1;
+{	
 
-	if (i >= 10)
+	if (i >= 10 || (i < 0 && i >= -10))
 		print(i / 10);
 
+	if (i < 0)
+		_putchar('-');
 	_putchar('0' + (i % 10));
 }
 
