@@ -7,10 +7,10 @@
 
 int main(void)
 {
-	int i, result;
+        int i;
 
-	i = 0;
-	result = positive_or_negative(i);
-	printf("%d is zero\n", result);
-	return (0);
+        i = 0;
+        positive_or_negative(i);
+
+        return (0);
 }
