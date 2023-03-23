@@ -9,7 +9,7 @@ void print (int a)
 {
 	if (a >= 10)
 		print(a / 10);
-	_putchar(a % 10);
+	_putchar('0' + (a % 10));
 }
 
 /**
