@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * void puts2 - function
+ * puts2 - function
  *
  * @str: parameter
  */
@@ -15,4 +15,5 @@ void puts2(char *str)
 			putchar(str[i]);
 		i++;
 	}
+	putchar('\n');
 }
