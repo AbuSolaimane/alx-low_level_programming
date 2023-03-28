@@ -6,6 +6,8 @@
  * @dest: parameter
  *
  * @src: parameter
+ *
+ * Return: char pointer
  */
 char *_strcpy(char *dest, char *src)
 {
