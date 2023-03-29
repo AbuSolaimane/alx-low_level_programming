@@ -10,10 +10,11 @@
  */
 char *cap_string(char *str)
 {
+	int i;
 	int len = strlen(str);
 	int cap_next = 1;
 
-	for (int i = 0; i < len; i++)
+	for (i = 0; i < len; i++)
 	{
 		if (cap_next && isalpha(str[i]))
 		{
