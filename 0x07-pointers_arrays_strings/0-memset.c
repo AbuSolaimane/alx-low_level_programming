@@ -7,6 +7,8 @@
  * @b: parameter2
  *
  * @n: parameter3
+ *
+ * Return: return
  */
 char *_memset(char *s, char b, unsigned int n)
 {
