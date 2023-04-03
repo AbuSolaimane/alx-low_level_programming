@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * _strchr - function
  *
