@@ -1,5 +1,5 @@
 /**
- * _strlen_recursion
+ * _strlen_recursion - function
  *
  * @s: parameter1
  *
