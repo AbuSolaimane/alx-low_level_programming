@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * create_array - function
+ * _strdup - function
  *
  * @str: parameter
  *
@@ -10,13 +10,12 @@
 char *_strdup(char *str)
 {
 	char *ptr;
-	unsigned int i;
-	unsigned int size;
+	unsigned int i, size;
 
 	if (str == NULL)
 		return (NULL);
 	size = strlen(str);
-	ptr = (char *) malloc(size * sizeof(char));
+	ptr = (char *) malloc((size + 1) * sizeof(char));
 	if (ptr == NULL)
 		return (ptr);
 	for (i = 0; i < size; i++)
