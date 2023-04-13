@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include <stdio.h>
+
 /**
  * malloc_checked - function
  *
