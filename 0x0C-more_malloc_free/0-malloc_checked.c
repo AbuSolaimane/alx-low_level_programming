@@ -5,6 +5,8 @@
  * malloc_checked - function
  *
  * @b: parameter1
+ *
+ * Return: void pointer
  */
 void *malloc_checked(unsigned int b)
 {
