@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include "main.h"
 
 /**
  * *array_range - creates an array of integers
@@ -23,5 +22,5 @@ int *array_range(int min, int max)
 		*(ptr + j) = i;
 		j++;
 	}
-	return ptr;
+	return (ptr);
 }
