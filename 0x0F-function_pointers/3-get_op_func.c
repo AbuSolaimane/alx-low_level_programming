@@ -9,7 +9,7 @@
  */
 int (*get_op_func(char *s))(int, int)
 {
-	switch (s)
+	switch (*s)
 	{
 		case '+':
 			return (op_add);
