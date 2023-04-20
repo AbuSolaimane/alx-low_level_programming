@@ -9,19 +9,24 @@
  */
 int (*get_op_func(char *s))(int, int)
 {
-	switch (*s)
+	op_t ops[] = {
+		{"+", op_add},
+		{"-", op_sub},
+		{"*", op_mul},
+		{"/", op_div},
+		{"%", op_mod},
+		{NULL, NULL}
+	};
+	int i;
+
+	i = 0;
+
+	while (ops[i].op)
 	{
-		case '+':
-			return (op_add);
-		case '-':
-			return (op_sub);
-		case '*':
-			return (op_mul);
-		case '/':
-			return (op_div);
-		case '%':
-			return (op_mod);
-		default:
-			return (NULL);
+		if (strcmp(ops[i].op, s) == 0)
+			return (ops[i].f);
+		i++;
 	}
+
+	return (NULL);
 }
