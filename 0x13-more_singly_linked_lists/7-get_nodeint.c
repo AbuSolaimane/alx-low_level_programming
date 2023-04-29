@@ -5,7 +5,7 @@
  *
  * @head: parameter
  *
- * @index: 
+ * @index: parameter2
  *
  * Return: NULL
  */
