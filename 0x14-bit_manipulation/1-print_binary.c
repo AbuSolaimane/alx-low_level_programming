@@ -9,9 +9,9 @@ void print_binary(unsigned long int n)
 {
 	if (n <= 1)
 	{
-		printf("%d", n);
+		printf("%lu", n);
 		return;
 	}
 	print_binary(n / 2);
-	printf("%d", n%2)
+	printf("%lu", n%2);
 }
