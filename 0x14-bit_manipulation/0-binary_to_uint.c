@@ -16,6 +16,7 @@ unsigned int binary_to_uint(const char *b)
 		result *= 2;
 		if (*b == '1')
 			result += 1;
+		b++;
 	}
 	return (result);
 }
