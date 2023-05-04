@@ -13,5 +13,5 @@ void print_binary(unsigned long int n)
 		return;
 	}
 	print_binary(n / 2);
-	printf("%lu", n%2);
+	printf("%lu", n % 2);
 }
