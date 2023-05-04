@@ -11,6 +11,9 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int result = 0;
 
+	if (!b)
+		return (0);
+
 	while (*b != '\0')
 	{
 		result *= 2;
