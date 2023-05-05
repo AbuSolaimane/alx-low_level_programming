@@ -7,11 +7,22 @@
  */
 void print_binary(unsigned long int n)
 {
-	if (n <= 1)
+	unsigned long int temp;
+	int shift = 0;
+
+	if (n == 0)
 	{
-		printf("%lu", n);
+		printf("0");
 		return;
 	}
-	print_binary(n / 2);
-	printf("%lu", n % 2);
+
+	for (temp = n; (temp = temp >> 1) > 0; shift++)
+		;
+	for (; shift >= 0; shift--)
+	{
+		if ((n >> shift) & 1)
+			printf("1");
+		else
+			printf("0");
+	}
 }
