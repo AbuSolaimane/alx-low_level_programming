@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * sum_nodes_dlistint - function
+ * sum_dlistint - function
  *
  * @head: param
  *
