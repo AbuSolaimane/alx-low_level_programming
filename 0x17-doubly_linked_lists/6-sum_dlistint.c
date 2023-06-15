@@ -7,7 +7,7 @@
  *
  * Return: return
  */
-int sum_nodes_dlistint(dlistint_t *head)
+int sum_dlistint(dlistint_t *head)
 {
 	int sum_nodes = 0;
 
