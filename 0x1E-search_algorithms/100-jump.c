@@ -18,7 +18,7 @@ size_t min(size_t a, size_t b)
  * jump_search - func
  *
  * @array: param 1
- * 
+ *
  * @size: param 2
  *
  * @value: param 3
@@ -40,7 +40,7 @@ int jump_search(int *array, size_t size, int value)
 	{
 		printf("Value checked array[%lu] = [%d]\n",
 		       right, array[right]);
-	}	
+	}
 	printf("Value found between indexes [%lu] and [%lu]\n", left, right);
 
 	for (; left <= min(right, size - 1); left++)
